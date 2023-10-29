@@ -35,6 +35,10 @@ public class ProductServiceImpl implements ProductService {
 		
 	}
 	
+	public void getSum() {
+		
+	}
+	
 	@Override
 	public List<Product> getProductListByCategory(String category) {
 		Iterable<com.products.entity.Product> entites = repo.findByCategory(category);//retreives all the data
